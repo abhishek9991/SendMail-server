@@ -29,7 +29,7 @@
         }
     }
   
-  **response data** : either an json containing error or the following json for successfull email sending
+  response data : either an json containing error or the following json for successfull email sending
   {
     "id":"<id of message>",
     "threadId":"<thread id>",
