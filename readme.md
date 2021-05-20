@@ -8,7 +8,8 @@
   method   : GET
   
   request body : empty
-  response data: either an json containing error or the following json for successsful token retrieval 
+  response data: either an json containing error
+                 or the following json for successsful token retrieval 
       {
         "msg":"retrieved tokens successfully"
       }
@@ -29,7 +30,8 @@
         }
     }
   
-  response data : either an json containing error or the following json for successfull email sending
+  response data : either an json containing error
+                  or the following json for successfull email sending
   {
     "id":"<id of message>",
     "threadId":"<thread id>",
